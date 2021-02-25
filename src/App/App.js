@@ -16,7 +16,7 @@ class App extends React.Component {
   }
 
   downloadBundle = (currPackage) => {
-    window.open(`http://localhost:8080/bundle/${currPackage}`);
+    window.open(`https://package-backend.herokuapp.com/bundle/${currPackage}`);
   };
 
   render() {
