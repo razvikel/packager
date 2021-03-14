@@ -23,6 +23,9 @@ const styles = {
   welcomeText: {
     fontSize: "30px",
   },
+  icon: {
+    fontSize: "1200%",
+  },
 };
 
 export default styles;
