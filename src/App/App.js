@@ -17,7 +17,8 @@ class App extends React.Component {
       images: [],
     };
     this.imagesLimit = 10;
-    this.serverUrl = "http://localhost:8080"; //`https://packager-backend.herokuapp.com`
+    // this.serverUrl = "http://localhost:8080";
+    this.serverUrl = "https://packager-backend.herokuapp.com";
   }
 
   searchImages = async (searchTerm, limit) => {
